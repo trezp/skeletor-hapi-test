@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "tsc && node ./build/Index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -16,6 +17,7 @@
     "typeorm": "^0.2.25"
   },
   "devDependencies": {
+    "@types/hapi": "^18.0.3",
     "@types/node": "^14.6.0"
   }
 }
