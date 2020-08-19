@@ -1,22 +1,27 @@
+const data = [
+    {
+        name: "Peggy Poodle",
+        age: 9, 
+        description: "The cutest cat",
+        id: 1
+    },
+    {
+        name: "Biscuits Boodle",
+        age: 1, 
+        description: "Also cute",
+        id: 2
+    }
+]
+
 
 const getAll = () => {
-    return [
-        {
-            name: "Peggy Poodle",
-            age: 9, 
-            description: "The cutest cat"
-        },
-        {
-            name: "Biscuits Boodle",
-            age: 1, 
-            description: "Also cute"
-        }
-    ]
+    return data;
 }
 
 
-const getOne = () => {
-    return "Meow";
+const getOne = (request, h) => {
+    const id = parseInt(request.params.id);
+    return data.filter(cat => cat.id === id);
 }
 
 module.exports = [
