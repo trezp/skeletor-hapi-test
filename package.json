@@ -11,13 +11,14 @@
   "license": "ISC",
   "dependencies": {
     "@hapi/hapi": "^20.0.0",
-    "nodemon": "^2.0.4",
     "reflect-metadata": "^0.1.13",
     "sqlite3": "^5.0.0",
     "typeorm": "^0.2.25"
   },
   "devDependencies": {
     "@types/hapi": "^18.0.3",
-    "@types/node": "^14.6.0"
+    "@types/node": "^14.6.0",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
   }
 }

@@ -6,7 +6,7 @@ const data = [
         id: 1
     },
     {
-        name: "Biscuits Boodle",
+        name: "Biscuits Booooooooodle",
         age: 1,
         description: "Also cute",
         id: 2
@@ -28,9 +28,7 @@ export default [
     {
         method: 'GET',
         path: '/',
-        handler: function () {
-            return 'Meow';
-        },
+        handler: getAll,
         config: {
             description: 'Get all meows',
             notes: 'Blah blah blah',
