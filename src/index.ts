@@ -1,6 +1,15 @@
 import * as Hapi from "@hapi/hapi";
 import routes from "./config/routes";
 
+
+/*
+ * Database
+ */
+
+
+/*
+ * Application
+ */
 const host = "localhost";
 const port = 3000;
 
